@@ -1,6 +1,6 @@
 # GitHub Tutorial
 
-_by <your-name-here>_
+_by <David>_
 
 ---
 ## Git vs. GitHub
@@ -9,7 +9,7 @@ _by <your-name-here>_
 
 ---
 ## Initial Setup
-
+In order to use git you need to make a Github account. You will need to go to [Github](https://github.com/)
 
 
 ---
