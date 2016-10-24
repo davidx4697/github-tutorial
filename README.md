@@ -28,4 +28,8 @@ Make a directory using "mkdir". Also make sure your in workspace. After making a
 * **git push** - This allows you to push a commit to the cloud and use it later.
 * **git clone "URL"** - This command allows you to copy a repository 
 * **git commit -m "message"** - This git command allows you to take a snapchat and save what ever you have done.
-*  **git add "file"** - add a file so you can commit it.
+* **git add "file"** - add a file so you can commit it.
+* **rm -rf** - this allows you to delete a directory even if there are files inside of it.
+* **git reset HEAD --"file"** - If you accidently staged a file, this command will unstage it.
+* **git add remote origin "URL"** - this command allows you to add an external link. You will need to add a link before using git push.
+* **git add .** - This command puts all files to the stage and ready to be committed.
