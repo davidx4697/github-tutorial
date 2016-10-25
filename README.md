@@ -5,9 +5,9 @@ _by David_
 ---
 ## Git vs. GitHub
 #### Git
-Git is used to manage code whenever it's a large or small project. It also keeps various versions of your project to go back to. Having different versions of a project is helpful incase something goes wrong or if you changed something and want to go back to previous a version. Git **DOES NOT** require github.
+Git is used to manage code by keeping various "snapshots" of your code to refer back to. Having different versions of a project is helpful because incase something goes wrong or if you changed something and want to go back to previous a version. Git **DOES NOT** require github.
 #### Github   
-Github is a website that works well with git. The website allows you to save versions of your project on the cloud. Github also uses a simple interface that makes it easy to check your files, commits, and repositories. Github **REQUIRES** git.
+Github allows users to save the different versions of your code into the cloud. Github also uses a simple interface that makes it easy to check your files, commits, and repositories. Github **REQUIRES** git.
 
 
 
