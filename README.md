@@ -14,7 +14,7 @@ Github is a website that works well with git. The website allows you to save ver
 ---
 ## Initial Setup
 In order to use git you need to make a Github account. You will need to go to [Github](https://github.com/).   
-[Imgur](http://i.imgur.com/dQYkvqW.png)   
+![Imgur](http://i.imgur.com/dQYkvqW.png)   
 After you have created your account, you will need to verify your account using the email you used to sign up with. After you have done all    of this go to [Cloud9](https://c9.io/) and log in using the green cat icon on the top right. After making an account you have to connect your c9 account to your github account using SSH keys. On github press the down arrow next to your profile picture and click on settings. Now on the left click on SSH and GPG keys. Open a new tab and go to your c9 account and login. After logging in you will see the word    workspaces on the left. Now click on the gear icon on the right. After that click on SSH keys on the left. Copy everything in the grey box. It starts with "sh-rsa". Now back to github. On the rightish there should be a button called "New SSH Key". Click on the button and type "cloud9" in the title and paste the SSH key on the box under the title called "key". Now your all set!
 
 
