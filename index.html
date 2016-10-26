@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Github-Tutorial by davidx4697</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/davidx4697/github-tutorial">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Github-Tutorial</h1>
+            <h2>May the code be with you</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/davidx4697/github-tutorial/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/davidx4697/github-tutorial/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by David</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<h4>
+<a id="git" class="anchor" href="#git" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git</h4>
+
+<p>Git is used to manage code by keeping various "snapshots" of your code to refer back to. Having different versions of a project is helpful because incase something goes wrong or if you changed something and want to go back to previous a version. Git <strong>DOES NOT</strong> require github.</p>
+
+<h4>
+<a id="github" class="anchor" href="#github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Github</h4>
+
+<p>Github allows users to save the different versions of your code into the cloud. Github also uses a simple interface that makes it easy to check your files, commits, and repositories. Github <strong>REQUIRES</strong> git.</p>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p>In order to use git you need to make a Github account. You will need to go to <a href="https://github.com/">Github</a>.<br>
+<img src="http://i.imgur.com/dQYkvqW.png" alt="Imgur"><br>
+After you have created your account, you will need to verify your account using the email you used to sign up with. After you have done all of this go to <a href="https://c9.io/">Cloud9</a> and log in using the green cat icon on the top right. After making an account you have to connect your c9 account to your github account using SSH keys. On github press the down arrow next to your profile picture and click on settings. Now on the left click on SSH and GPG keys.<br>
+<img src="http://i.imgur.com/y0vE8Zt.png" alt="Imgur"><br>
+Open a new tab and go to your c9 account and login. After logging in you will see the word "workspaces" on the left. Now click on the gear icon on the right.<br>
+<img src="http://i.imgur.com/3U4SXPA.png" alt="Imgur"><br>
+After that click on SSH keys on the left. Copy everything in the grey box. It starts with <code>ssh-rsa</code>. Now go back to the github tab. On the top right corner, there should be a button called "New SSH Key". Click on the button and type "cloud9" in the title and paste the SSH key on the box under the title called "key". Now your all set!</p>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p>Make a directory using <code>mkdir</code>. Also make sure your in workspace. After making a directory cd into it and type <code>git init</code> to actually use git commands.<br>
+<img src="http://i.imgur.com/V14Uphr.png" alt="Imgur"><br>
+Now you will need to connect your repository to github in order to push commits to the cloud. First go to github. After this click on the plus sign on the top-right. Then choose "new repository". The name of the repository has to be the same as the directory you made in cloud9. For example if im working on a project called "git tutorial" in cloud9, then the name of the repository in github should also be "git tutorial". It's also case sensitive! After typing the name press the green button on the bottom to create it! Then you should see a page with the words "Quick Setup" on the left. Make sure you chose SSH or if you feel like logging in everytime you open the repo in cloud9, then feel free to choose https. Now copy both lines of code under the header "…or push an existing repository from the command line". Paste the two lines of code into the command line in cloud9 and press enter. Also make sure you are in the correct repository or it will not work. Now you can simply type "git push" to upload commits to the cloud.   </p>
+
+<h2>
+<a id="" class="anchor" href="#" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><img src="http://i.imgur.com/DE2YlAw.png" alt="Imgur">
+</h2>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<ul>
+<li>
+<strong>git status</strong> - This command tells you what is going on in the repository and if any commands used before worked or not.</li>
+<li>
+<strong>git push</strong> - This allows you to push a commit to the cloud and use it later.</li>
+<li>
+<strong>git clone "URL"</strong> - This command allows you to clone a repository into your lov</li>
+<li>
+<strong>git commit -m "message"</strong> - This git command allows you to take a snapchat and save what ever you have done.</li>
+<li>
+<strong>git add "file"</strong> - add a file so you can commit it.</li>
+<li>
+<strong>rm -rf</strong> - this allows you to delete a directory even if there are files inside of it.</li>
+<li>
+<strong>git reset HEAD --"file"</strong> - If you accidently staged a file, this command will unstage it.</li>
+<li>
+<strong>git add remote origin "URL"</strong> - this command allows you to add an external link. You will need to add a link before using git push.</li>
+<li>
+<strong>git add .</strong> - This command puts all files to the stage and ready to be committed.</li>
+</ul>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/davidx4697">davidx4697</a> can be found on <a href="https://github.com/davidx4697/github-tutorial">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
