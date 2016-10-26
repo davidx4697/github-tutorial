@@ -19,7 +19,7 @@ After you have created your account, you will need to verify your account using 
 ![Imgur](http://i.imgur.com/y0vE8Zt.png)   
 Open a new tab and go to your c9 account and login. After logging in you will see the word "workspaces" on the left. Now click on the gear icon on the right.   
 ![Imgur](http://i.imgur.com/3U4SXPA.png)   
-After that click on SSH keys on the left. Copy everything in the grey box. It starts with "sh-rsa". Now go back to the github tab. On the right-ish there should be a button called "New SSH Key". Click on the button and type "cloud9" in the title and paste the SSH key on the box under the title called "key". Now your all set!
+After that click on SSH keys on the left. Copy everything in the grey box. It starts with `ssh-rsa`. Now go back to the github tab. On the top right corner, there should be a button called "New SSH Key". Click on the button and type "cloud9" in the title and paste the SSH key on the box under the title called "key". Now your all set!
 
 
 ---
