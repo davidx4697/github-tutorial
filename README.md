@@ -24,7 +24,7 @@ After that click on SSH keys on the left. Copy everything in the grey box. It st
 
 ---
 ## Repository Setup
-Make a directory using "mkdir". Also make sure your in workspace. After making a directory cd into it and type "git init" to actually use git commands.   
+Make a directory using `mkdir`. Also make sure your in workspace. After making a directory cd into it and type `git init` to actually use git commands.   
 ![Imgur](http://i.imgur.com/V14Uphr.png)   
 Now you will need to connect your repository to github in order to push commits to the cloud. First go to github. After this click on the plus sign on the top-right. Then choose "new repository". The name of the repository has to be the same as the directory you made in cloud9. For example if im working on a project called "git tutorial" in cloud9, then the name of the repository in github should also be "git tutorial". It's also case sensitive! After typing the name press the green button on the bottom to create it! Then you should see a page with the words "Quick Setup" on the left. Make sure you chose SSH or if you feel like logging in everytime you open the repo in cloud9, then feel free to choose https. Now copy both lines of code under the header "…or push an existing repository from the command line". Paste the two lines of code into the command line in cloud9 and press enter. Also make sure you are in the correct repository or it will not work. Now you can simply type "git push" to upload commits to the cloud.   
 ![Imgur](http://i.imgur.com/DE2YlAw.png)
