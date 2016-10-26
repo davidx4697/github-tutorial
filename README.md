@@ -30,9 +30,9 @@ Now you will need to connect your repository to github in order to push commits 
 ![Imgur](http://i.imgur.com/DE2YlAw.png)
 ---
 ## Workflow & Commands
-* **git status** - This command is very useful. It tells you what is going on in the repository and if any commands used before worked or not.
+* **git status** - This command tells you what is going on in the repository and if any commands used before worked or not.
 * **git push** - This allows you to push a commit to the cloud and use it later.
-* **git clone "URL"** - This command allows you to copy a repository 
+* **git clone "URL"** - This command allows you to clone a repository into your lov
 * **git commit -m "message"** - This git command allows you to take a snapchat and save what ever you have done.
 * **git add "file"** - add a file so you can commit it.
 * **rm -rf** - this allows you to delete a directory even if there are files inside of it.
